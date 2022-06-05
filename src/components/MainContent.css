@@ -1,0 +1,20 @@
+.main {
+  width: 75%;
+  margin: auto;
+}
+
+.main__text {
+  margin: 35px 0;
+}
+
+.pricing__box {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 0;
+}
+
+@media (max-width: 768px) {
+  .pricing__box {
+    flex-direction: column;
+  }
+}
