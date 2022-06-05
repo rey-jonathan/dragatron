@@ -21,6 +21,15 @@
   text-align: left;
 }
 
+.box__title {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.box__price {
+  font-size: 18px;
+}
+
 .box__list > li {
   margin: 5px 0;
 }

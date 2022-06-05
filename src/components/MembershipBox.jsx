@@ -7,8 +7,8 @@ const MembershipBox = ({ data }) => {
         <div className='box'>
           {a.popular && <p className='popular__text'>POPULAR.</p>}
           <div className='price__box'>
-            <h3 className='box__title'>{a.title}</h3>
-            <h4 className='box__price'>${a.price}/Month</h4>
+            <p className='box__title'>{a.title}</p>
+            <p className='box__price'>${a.price}/Month</p>
           </div>
           {/* <div style={{ marginTop: "35px" }}> */}
           <ul className='box__list'>
