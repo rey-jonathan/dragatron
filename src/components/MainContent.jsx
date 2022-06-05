@@ -14,7 +14,7 @@ const MainContent = () => {
         SUBSCRIPTION
       </p>
       <p>
-        With 3 Rypes of membership,{" "}
+        With 3 Types of membership,{" "}
         <span style={{ color: "#fec465" }}>
           Discover the membership which fits your personal needs.
         </span>
