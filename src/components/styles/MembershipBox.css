@@ -2,7 +2,7 @@
   border: 1px solid #4f5e62;
   text-align: center;
   position: relative;
-  height: 350px;
+  height: auto;
   width: 300px;
   margin-right: 10px;
   margin-top: 15px;
@@ -36,6 +36,8 @@
 
 .box__list > li {
   margin: 5px 0;
+  font-weight: lighter;
+  line-height: 23px;
 }
 
 .box__list > li::before {
@@ -58,7 +60,7 @@
 }
 
 .box:hover > .price__box:nth-child(2) {
-  animation: 1s slidein-top-center120 forwards;
+  animation: 1s slidein-top-center100 forwards;
 }
 
 .box:hover > ul {
@@ -111,12 +113,12 @@
   }
 }
 
-@keyframes slidein-top-center120 {
+@keyframes slidein-top-center100 {
   0% {
     transform: translateY(0%);
   }
   100% {
-    transform: translateY(120%);
+    transform: translateY(100%);
   }
 }
 
@@ -129,8 +131,9 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .box {
     margin: 10px auto;
+    height: 340px;
   }
 }

@@ -5,11 +5,20 @@
 
 .header__arrow {
   margin-right: 15px;
-  padding-bottom: 5px;
   font-size: 30px;
 }
 
 .header__text {
   font-size: 30px;
   margin-left: 80px;
+}
+
+@media (max-width: 768px) {
+  .header {
+    margin-left: 25px;
+  }
+
+  .header__text {
+    margin-left: 55px;
+  }
 }

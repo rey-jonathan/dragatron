@@ -7,15 +7,15 @@ const MainContent = () => {
   return (
     <div className='main'>
       <h1>
-        SIGN UP AS A <span style={{ color: "#fec465" }}>PROFESSIONAL</span>
+        SIGN UP AS A <span className='main__text__gold'>PROFESSIONAL</span>
       </h1>
       <p className='main__text'>
-        <span style={{ color: "#fec465" }}>STEP 3/4</span> SELECT TRAINER
+        <span className='main__text__gold'>STEP 3/4</span> SELECT TRAINER
         SUBSCRIPTION
       </p>
       <p>
         With 3 Types of membership,{" "}
-        <span style={{ color: "#fec465" }}>
+        <span className='main__text__gold'>
           Discover the membership which fits your personal needs.
         </span>
       </p>
