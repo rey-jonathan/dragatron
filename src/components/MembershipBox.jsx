@@ -3,8 +3,8 @@ import "./styles/MembershipBox.css";
 const MembershipBox = ({ data }) => {
   return (
     <>
-      {data.map((a) => (
-        <div className='box'>
+      {data.map((a, index) => (
+        <div key={index} className='box'>
           {a.popular && <p className='popular__text'>POPULAR.</p>}
           <div className='price__box'>
             <p className='box__title'>{a.title}</p>
