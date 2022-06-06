@@ -2,7 +2,7 @@
   border: 1px solid #4f5e62;
   text-align: center;
   position: relative;
-  height: 400px;
+  height: 350px;
   width: 300px;
   margin-right: 10px;
   margin-top: 15px;
@@ -107,7 +107,7 @@
     transform: translateY(0%);
   }
   100% {
-    transform: translateY(200%);
+    transform: translateY(160%);
   }
 }
 
