@@ -1,7 +1,7 @@
 import MembershipBox from "./MembershipBox";
 import { pricing } from "../data/pricing";
 
-import "./MainContent.css";
+import "./styles/MainContent.css";
 
 const MainContent = () => {
   return (

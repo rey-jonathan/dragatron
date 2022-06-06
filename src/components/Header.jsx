@@ -1,6 +1,6 @@
 import { FaArrowLeft } from "react-icons/fa";
 
-import "./header.css";
+import "./styles/header.css";
 
 const Header = () => {
   return (
